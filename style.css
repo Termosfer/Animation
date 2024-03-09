@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.container {
+    width: 100%;
+    height: 500px;
+    background-color: #2f2e2e;
+  }
+  body {
+    font-family: 'Dancing Script', cursive;
+  }
+  .box {
+    height: 400px;
+    width: 400px;
+    background-color: #c9471c;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 1px 0px 1px #eee1dd;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .circle {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #000;
+    background: linear-gradient(
+      33deg,
+      rgba(237, 228, 228, 1) 0%,
+      rgba(0, 0, 0, 0.9276960784313726) 35%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.7);
+    animation: anima 5s linear infinite;
+    animation-delay: 5s;
+    /* animation-name: anima;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+     */
+  }
+  
+  .circle .line {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    background: linear-gradient(
+      33deg,
+      rgba(237, 228, 228, 1) 0%,
+      rgba(0, 0, 0, 0.9276960784313726) 35%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    border: 1px solid #2f2e2e;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .circle .line2 {
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    background: linear-gradient(
+      33deg,
+      rgba(237, 228, 228, 1) 0%,
+      rgba(0, 0, 0, 0.9276960784313726) 35%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    border: 1px solid #2f2e2e;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .circle .line3 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: linear-gradient(
+      33deg,
+      rgba(237, 228, 228, 1) 0%,
+      rgba(0, 0, 0, 0.9276960784313726) 35%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    border: 1px solid #2f2e2e;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .circle .line4 {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background: linear-gradient(
+      33deg,
+      rgba(237, 228, 228, 1) 0%,
+      rgba(0, 0, 0, 0.9276960784313726) 35%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    border: 1px solid #2f2e2e;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .text {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #eee1dd;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .text p {
+    text-align: center;
+    margin-top: 35px;
+    font-size: small;
+    line-height: 0;
+  }
+  
+  span {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: inset -2px -2px 5px rgba(0, 0, 0, 0.35);
+  }
+  
+  .small-circle1 {
+    height: 40px;
+    width: 40px;
+    background-color: gray;
+    position: absolute;
+    left: 5px;
+    top: 22px;
+    border-radius: 50%;
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.45);
+  }
+  
+  .small-circle1::after {
+    content: "";
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #2f2e2e;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .small-circle2 {
+    height: 40px;
+    width: 40px;
+    background-color: gray;
+    position: absolute;
+    left: 5px;
+    bottom: 22px;
+    border-radius: 50%;
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.45);
+  }
+  
+  .small-circle2::after {
+    content: "";
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #2f2e2e;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .small-circle3 {
+    height: 40px;
+    width: 40px;
+    background-color: gray;
+    position: absolute;
+    right: 5px;
+    bottom: 22px;
+    border-radius: 50%;
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.45);
+  }
+  
+  .small-circle3::after {
+    content: "";
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #2f2e2e;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .small-circle {
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    position: absolute;
+    right: 5px;
+    top: 22px;
+    border-radius: 50%;
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.45);
+    animation-name: move;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+  }
+  
+  .small-circle::after {
+    content: "";
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #2f2e2e;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  .small-circle::before {
+    content: "";
+    width: 5px;
+    height: 250px;
+    background-color: #eee1dd;
+    position: absolute;
+    right: 22px;
+    top: -45px;
+  }
+  
+  @keyframes anima {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes move {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(45deg);
+    }
+    
+  }
+  
+
+  .small-text {
+    background-color: red;
+    transform: rotate(-45deg);
+    width: 100px;
+    color: #fff;
+    padding-top: 20px;
+    
+  }
+  .small-text > p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container1 {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scroll-text {
+  padding-top: 20px;
+  width: 20%;
+  text-align: justify;
+  background-image: linear-gradient(90deg, red, brown);
+  background-clip: text;
+  color: transparent;
+  overflow: hidden;
+
+  
+}
+
+.scroll-text h1,
+.scroll-text p {
+  text-align: center;
+  color: #fff;
+  /* -webkit-text-stroke: .5px #fff;
+  background-image: linear-gradient(#00abf0, #00abf0);
+  background-repeat: no-repeat;
+  background-clip: text; */
+  animation: animatext 15s linear infinite;
+  
+}
+
+@keyframes animatext {
+  0% {
+      transform: translateY(500px);
+  }
+
+  100% {
+      transform: translateY(-500px);
+  }
+}
